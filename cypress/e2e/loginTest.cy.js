@@ -2,6 +2,7 @@
 
 describe('login process', () => {
   beforeEach(() => {
+    cy.viewport(Cypress.env("viewportWidth"), Cypress.env("viewportHeight"));
     cy.visit('/')
   });
 

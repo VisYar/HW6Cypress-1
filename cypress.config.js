@@ -6,5 +6,5 @@ module.exports = defineConfig({
     retries: {
       openMode: 2,
     }
-    },
+  },
 });

@@ -2,9 +2,9 @@
 https://github.com/netology-code/jsaqa-homeworks/blob/main/7-06.md
 
 ## Запустить приложение:
-
-1. для booksApp в терминале запустить приложение командой `npm start`
-2. для booksApp в другом терминале запустить серверную часть приложения командой `npm run server`
+`npm install`
+1. для booksApp в другом терминале запустить серверную часть приложения командой `npm run server`
+2. для booksApp в терминале запустить приложение командой `npm start`
 
 ## Запустить cypress в отдельном терминале:
 1. Проверка установки Node `node -v`
@@ -13,3 +13,5 @@ https://github.com/netology-code/jsaqa-homeworks/blob/main/7-06.md
 4. Запустить Cypress `npx cypress open`
 
 Для отображения подсказок вставить в тесты `/// <reference types="cypress"/>`
+
+Установка Faker `npm install @faker-js/faker --save-dev`

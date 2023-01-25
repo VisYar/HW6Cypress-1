@@ -33,7 +33,8 @@ describe('Favorite books testing', () => {
       .should('be.visible');
   });
 
-  it('Delete book from favorite', () => {
+	it('Delete book from favorite', () => {
+		cy.createFavoriteBook(bookData);
     cy.visit('/favorites');
     cy.contains(bookData.title)
       .should('be.visible')
